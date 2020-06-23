@@ -1,0 +1,5 @@
+Tutorial
+
+es wird neben den SQL-Treibern das Microsoft-SQL-Management-Studio benötigt
+
+für das Tutorial sollte das Backup Shop.bacpac aufgesetzt werden und Funktionsfähig sein
