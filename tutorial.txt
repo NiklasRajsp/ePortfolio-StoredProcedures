@@ -1,5 +1,28 @@
 Tutorial
 
-es wird neben den SQL-Treibern das Microsoft-SQL-Management-Studio benötigt
+falls nötig:
+Microsoft-SQL-Management-Studio runter laden und installieren
+ 	https://docs.microsoft.com/de-de/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15
+ebenso werden SQL-Server-Treiber benötigt 
+	https://www.microsoft.com/de-de/download/details.aspx?id=42299
 
-für das Tutorial sollte das Backup Shop.bacpac aufgesetzt werden und Funktionsfähig sein
+nach dem einrichten im Management-Studio einen SQL-Express-Server einrichten
+das Backup aus dem git-repository laden:
+https://docs.microsoft.com/de-de/sql/relational-databases/data-tier-applications/import-a-bacpac-file-to-create-a-new-user-database?view=sql-server-ver15
+
+nun existiert eine Datenbank namens Shop mit verschiedenen Tabellen.
+Nun im Object-Explorer unter 
+	Datenbanken/Shop/Programmierbarkeit
+auf den Ordner Gespeicherte Prozeduren mit Rechtsklick eine neue gespeicherte Prozedur erstellen.
+
+Die Beispiele können eingefügt werden, das Stichwort ALTER sollte vor dem ersten Ausführen allerdings durch CREATE
+ersetzt werden um die Stored Procedure zu erstellen. SQL-Management-Studio speichert diese dann mit 
+dem Schlüsselwort ALTER um die Funktion ausführen zu können.
+
+Wenn die Funktion das erste mal ausgeführt wurde und keine Fehlermeldung auftrat Rechtsklick auf den Ordner
+Gespeicherte Prozueduren und aktualisieren ausführen.
+
+Nun erscheint die Stored Procedure in diesem Ordner. 
+Mit rechtsklick auf die StoredProcedure => gespeicherte Prozedure ausfühgren kann sie manuell 
+ausgeführt werden. 
+
